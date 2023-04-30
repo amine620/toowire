@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "sans-pro";
+  src: url("../../fonts/static/source-sans-pro.bold.ttf") format("ttf");
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  margin-left: 100px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .h5{
+  margin-right: 40px;
+  color: white;
+}
+@media (max-width: 510px) {
+ .navbar{
+  flex-direction: column;
+ }
+ .logo{
+  margin: 0;
+ }
+ .navbar .h5{
+  transform: translateX(20%);
+ }
+}

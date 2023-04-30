@@ -1,0 +1,83 @@
+@font-face {
+  font-family: customFont;
+  src: url("../../../fonts/static/WorkSans-Light.ttf");
+}
+
+#row {
+  min-height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#row .texts {
+  width: 30%;
+}
+#row h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.1rem;
+}
+#row #p1 {
+  color: #47aeff;
+  font-weight: bold;
+  font-size: 100%;
+
+}
+
+#row #p2 {
+  color: #777;
+  font-family: customFont;
+  font-size: 100%;
+  margin-left: -15px;
+
+}
+#row .image {
+  max-height: 700px;
+}
+
+@media (max-width: 1000px) {
+  .image {
+    max-width: 90%;
+  }
+  #row .texts {
+    width: 40%;
+  }
+}
+@media (max-width: 995px) {
+  #row {
+    align-items: center;
+    min-height: auto;
+  }
+  #row h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+  }
+  .image {
+    width: 70%;
+  }
+  .texts {
+    margin: 0 10%;
+  }
+}
+@media (max-width: 768px) {
+  #row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #row .texts {
+    width: 80%;
+    margin: auto;
+  }
+  .image {
+    margin-left: 13%;
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 200px;
+  }
+  #row h1 {
+    font-size: 30px;
+  }
+  #row #p2 {
+    font-size: 1rem;
+  }
+}

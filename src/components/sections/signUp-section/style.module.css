@@ -1,0 +1,49 @@
+#payment img {
+  width: 8%;
+}
+#payment {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formContainer {
+  background-color: #fc9d9a;
+  margin-top: 35px;
+  padding-top: 20px;
+}
+
+.container1 {
+  width: 40%;
+}
+.container2 img {
+  width: 100%;
+}
+.container2 {
+  width: 25%;
+}
+.register {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 300px;
+}
+.register button {
+  background-color: #89d9ef;
+}
+
+@media (max-width: 778px) {
+  .formContainer {
+    margin-top: 10px;
+  }
+  .register {
+    flex-direction: column-reverse;
+  }
+  .container1 {
+    width: 90%;
+  }
+  .container2 {
+    width: 50%;
+  }
+}

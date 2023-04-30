@@ -1,0 +1,42 @@
+@font-face {
+  font-family: customFont;
+  src: url("../../../fonts/static/WorkSans-Light.ttf");
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  margin-top: 35px;
+  border-top: 1px solid rgb(177, 175, 175);
+}
+
+#text3 a {
+  margin-left: 1.2vw;
+  font-family: "Work Sans", sans-serif;
+  color: #3f3f3f;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+@media (max-width: 766px) {
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #text3 a {
+    font-size: 100%;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #text3 a {
+    font-size: 75%;
+  }
+}

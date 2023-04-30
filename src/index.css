@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Work+Sans:wght@700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#form {
+  background-color: #3ab0ff !important;
+}
+.wrapper {
+  height: auto;
+  background-color: #3ab0ff;
+  position: relative;
+  /* position: absolute; */
+}
+.custom-shape-divider-bottom-1660690584 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  animation: animate 18s linear infinite;
+}
+
+.custom-shape-divider-bottom-1660690584 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-bottom-1660690584 .shape-fill {
+  fill: #ffffff;
+}
+/* @keyframes animate{
+  0%{
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50%{
+    transform: translateX(-25) translateZ(0) scaleY(0.55);
+  }
+  100%{
+    transform: translateX(-50) translateZ(0) scaleY(1);
+  }
+} */
